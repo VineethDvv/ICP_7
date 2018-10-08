@@ -1,0 +1,7 @@
+{
+  "name": "ICP_7_Ionic",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}

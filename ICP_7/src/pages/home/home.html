@@ -1,0 +1,20 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>Home</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <h2>Welcome to Firebase!</h2>
+  <p>
+  Upload and Store Your Images
+  </p>
+
+  <ion-item>
+    <label class="item item-input"> <input type="file" (change)="fileChange($event)">
+    </label>
+    <img *ngIf="img1" [src]="img1" class="imgStyle"/>
+  </ion-item>
+  <button (click)="viewimage()">View Images</button>
+<div id = "container"></div>
+</ion-content>
